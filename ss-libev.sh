@@ -417,7 +417,6 @@ install_shadowsocks_libev(){
 # Uninstall Shadowsocks-libev
 uninstall_shadowsocks_libev(){
     clear
-    print_info
     printf "Are you sure uninstall Shadowsocks-libev? (y/n)"
     printf "\n"
     read -p "(Default: n):" answer
